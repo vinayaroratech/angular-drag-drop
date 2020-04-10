@@ -8,11 +8,13 @@ import { MaterialModule } from './material.module';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { InputComponent } from './components/input/input.component';
 import { ButtonComponent } from './components/button/button.component';
+import { SelectComponent } from './components/select/select.component';
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
-    ButtonComponent
+    ButtonComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule,
