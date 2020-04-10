@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 
 import { MaterialModule } from './material.module';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { InputComponent } from './components/input/input.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
