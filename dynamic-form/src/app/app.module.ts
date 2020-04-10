@@ -10,13 +10,15 @@ import { InputComponent } from './components/input/input.component';
 import { ButtonComponent } from './components/button/button.component';
 import { SelectComponent } from './components/select/select.component';
 import { DateComponent } from './components/date/date.component';
+import { RadiobuttonComponent } from './components/radiobutton/radiobutton.component';
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
     ButtonComponent,
     SelectComponent,
-    DateComponent
+    DateComponent,
+    RadiobuttonComponent
   ],
   imports: [
     BrowserModule,
